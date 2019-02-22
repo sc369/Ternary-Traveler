@@ -1,8 +1,11 @@
-import sayHello from "./hello"
-import sayGoodbye from "./goodbye"
-import SandwichMaker from "./sandwichMaker"
+import entryManager from "./entryManager"
+import createHTML from "./createHTML"
 
-sayHello()
-sayGoodbye()
+entryManager.getPOIs().then((interests) => {
+  interests.forEach(obj => {
+    createHTML.createPOI(obj)
+  })
+  console.log(interests)
 
-SandwichMaker.placeOrder("rye", "capicola", "provolone")
+
+})

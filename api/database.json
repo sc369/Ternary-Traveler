@@ -1,0 +1,34 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "name": "Italy",
+      "visa_required": false
+    },
+    {
+      "id": 2,
+      "name": "Switzerland",
+      "visa_required": true
+    },
+    {
+      "id": 3,
+      "name": "France",
+      "visa_required": false
+    }
+  ],
+  "interests": [
+    {
+      "id": 1,
+      "placeId": 1,
+      "name": "Local Market",
+      "description": "Local market where you can try purchase local products and try the local food",
+      "review_text": "Prices were extortionate but the food was good."
+    },
+    {
+      "id": 2,
+      "placeId": 3,
+      "name": "River Cafe",
+      "description": "Picturesque cafe by the riverside with wonderful scenery"
+    }
+  ]
+}
