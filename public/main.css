@@ -1,0 +1,20 @@
+.visa_required {
+color: red;
+
+}
+#output {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+section {
+  text-align: center;
+  border: gray 1px double;
+  min-width: 30%;
+  min-height: 160px;
+}
+
+.place_name {
+border-bottom:  1px solid gray;
+
+}

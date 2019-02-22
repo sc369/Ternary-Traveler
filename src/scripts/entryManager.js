@@ -10,7 +10,11 @@ const entryManager = {
       .then(res => res.json())
   },
 
-
+  deletePOI: (id) => {
+    return fetch(`http://127.0.0.1:8088/interests/${id}`, {
+      method: "DELETE",
+    })
+  },
 
   postPOI: (POIObject) => {
     return fetch("http://127.0.0.1:8088/interests", {

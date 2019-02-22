@@ -4,7 +4,7 @@ const createPOIObject = (name, desc, placeId) => {
     name: name,
     description: desc,
     placeId: placeId,
-    reviewText: ""
+
   }
   return POI
 }
