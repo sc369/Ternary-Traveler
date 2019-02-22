@@ -6,15 +6,21 @@ color: red;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
+ }
 section {
   text-align: center;
   border: gray 1px double;
   min-width: 30%;
+  max-width: 30%;
   min-height: 160px;
 }
 
 .place_name {
 border-bottom:  1px solid gray;
+
+}
+
+body {
+background-color: cornsilk
 
 }

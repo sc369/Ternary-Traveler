@@ -23,9 +23,9 @@
   ],
   "interests": [
     {
-      "name": "b",
-      "description": "b",
-      "placeId": 2,
+      "name": "Rome",
+      "description": "The Eternal City",
+      "placeId": 1,
       "id": 1
     }
   ]
