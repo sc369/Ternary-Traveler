@@ -29,6 +29,13 @@
       "placeId": 3,
       "name": "River Cafe",
       "description": "Picturesque cafe by the riverside with wonderful scenery"
+    },
+    {
+      "name": "Arc de Triomphe",
+      "description": "A magnificent arch",
+      "placeId": 3,
+      "reviewText": "",
+      "id": 3
     }
   ]
 }
