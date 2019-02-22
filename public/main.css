@@ -9,15 +9,39 @@ color: red;
  }
 section {
   text-align: center;
-  border: gray 1px double;
+  border: gray 1px solid;
   min-width: 30%;
   max-width: 30%;
   min-height: 160px;
+  margin: 7px;
+}
+
+#input_article {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+.text_input {
+  margin: 3px
+}
+
+select {
+  margin: 3px;
+}
+
+#button_add_POI {
+
+  height: 26px;
 }
 
 .place_name {
 border-bottom:  1px solid gray;
 
+}
+#title {
+  text-align: center
 }
 
 body {

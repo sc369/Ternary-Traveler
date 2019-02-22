@@ -27,6 +27,12 @@
       "description": "The Eternal City",
       "placeId": 1,
       "id": 1
+    },
+    {
+      "name": "The Eiffel Tower",
+      "description": "Originally denounced as an industrial monstrosity, this iconic building now represents Paris in the minds of millions",
+      "placeId": 3,
+      "id": 2
     }
   ]
 }
